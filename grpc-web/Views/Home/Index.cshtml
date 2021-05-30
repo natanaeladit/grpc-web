@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>gRPC-Web ASP.NET Core example</h2>
+<div>
+    <span>Hello:</span>
+    <input id="name" type="text" />
+    <input id="send" type="button" value="Send unary" />
+    <input id="stream" type="button" value="Start server stream" />
+</div>
+<div>
+    <p id="result"></p>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/dist/main.js"></script>
+}
